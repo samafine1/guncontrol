@@ -4,14 +4,19 @@
 
 
 Current legislation
+
 • Federal Firearms Act of 1938
+
   • People who handle guns must have a Federal Firearms License (FFL).
 
 • The Gun Control Act of 1968
+
   • citizens/legal residents must be at least 18 years of age to purchace shotguns or rifles and ammo.
+  
   • must be 21 to purchase any other type of firearm, e.g. handguns
 
 • Brady Handgun Prevention Act of 1993
+
   • Requires background checks on most firearm purchasers
   
 
