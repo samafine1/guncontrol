@@ -2,6 +2,8 @@
 
 • A little over a third of Americans own guns
 
+• Gun control took 15,613 lives in 2017
+
 • https://www.sciencedirect.com/science/article/pii/S0091743515001188 :
 
     • Self defense gun use occurs in less than 1% of contact crimes
