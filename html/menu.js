@@ -2,7 +2,7 @@ var menuoptions =
 [
   ["Intro, Signals and Sound", "index.html", "---"],
   ["Introduction", "index.html"],
-  ["Signals", "signals.html"],
+  ["Signals", "samf.html"],
   ["Discrete Signals", "discrete_signals.html"],
   
   ["Sines and Sampling", "part2.html", "---"],
