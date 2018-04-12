@@ -1,6 +1,6 @@
 var menuoptions =
 [
-  ["Introduction", "---"],
+  ["Introduction", "index.html", "---"],
   ["Introduction", "index.html"],
   ["About Us", "signals.html"],
   ["Discrete Signals", "discrete_signals.html"],
