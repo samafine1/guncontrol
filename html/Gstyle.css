@@ -11,16 +11,7 @@ body {
 
 p {
     text-indent: 25px;
-}
-
-.partdata {
-	vertical-align: top;
-	width: 170px;
-}
-
-p::first-letter { 
-/*    font-size: 110%;
-    font-weight: bold;*/
+    width:100%;
 }
 
 /* unvisited link */
@@ -90,7 +81,7 @@ h2 {
 }
 h3 {
 	font-family: 'Lato', sans-serif;
-	width: 90%;
+	width: 100%;
 	font-size: 14;
 	margin-left: 0;
 	margin-top: 30px;
@@ -99,7 +90,7 @@ h3 {
 }
 h4 {
 	font-family: 'Lato', sans-serif;
-	width: 90%;
+	width: 100%;
 	font-size: 13;
 	margin-left: 50;
 	margin-top: 15px;
@@ -109,7 +100,7 @@ h4 {
 h5 {
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
-	width: 90%;
+	width: 100%;
 	font-size: 10;
 	margin-left: 0;
 	margin-top: 0px;
