@@ -9,7 +9,7 @@ var menuoptions =
   // ["Timbre", "sound2.html"],
   ["Legislation", "part2.html", "---"],
   ["Federal", "federal.html"],
-  ["California", "trig_review.html"],
+  ["California", "california.html"],
   // ["The Sampling Theorem", "sampling.html"],
   // ["Nyquist Frequency", "sampling2.html"],
   // ["Wagon Wheel Effect", "sampling4.html"],
