@@ -8,7 +8,7 @@ var menuoptions =
   // ["Sound Waves", "sound.html"],
   // ["Timbre", "sound2.html"],
   ["Legislation", "part2.html", "---"],
-  ["Federal", "sincos.html"],
+  ["Federal", "federal.html"],
   ["California", "trig_review.html"],
   // ["The Sampling Theorem", "sampling.html"],
   // ["Nyquist Frequency", "sampling2.html"],
