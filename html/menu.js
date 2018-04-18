@@ -2,7 +2,7 @@ var menuoptions =
 [
   ["Our Website", "index.html", "---"],
   ["Introduction", "index.html"],
-  ["About Us", "signals.html"],
+  ["About Us", "about.html"],
   // ["Discrete Signals", "discrete_signals.html"],
   // ["Sampling & Aliasing", "aliasing.html"],
   // ["Sound Waves", "sound.html"],
@@ -21,7 +21,7 @@ var menuoptions =
   // ["Complex Numbers", "complex.html"],
   // ["Euler’s Formula", "euler.html"],
   ["Vote", "part4.html", "---"],
-  ["California Registration", "dotproduct.html"],
+  ["California Registration", "https://registertovote.ca.gov/"],
   ["Registration- Other States", "dotproduct2.html"],
   // ["Correlation With Sine", "dotproduct3.html"],
   // ["Correlation With Sine and Cosine", "dotproduct4.html"],
@@ -51,11 +51,11 @@ for (var i = 0; i < menuoptions.length; i++)
     : 'sectionButton';
 
   var style = currentPage === menuoptions[i][1] && !ispartheader && i != 0
-    ? "color: #bbb;"
+    ? "color: #f4eeee;"
     : "";
 
   style += ispartheader
-    ? "font-size: 9.5px; color: rgb(200,200,200); font-weight:bold; opacity: 1.0"
+    ? "font-size: 15px; color: rgb(83, 71, 255); font-weight:bold; opacity: 1.0"
     : "";
 
   if (ispartheader)
@@ -80,7 +80,7 @@ for (var i = 0; i < menuoptions.length; i++)
 
 
 var titleContents =
-'<div style="color: #ddd; font-size: 22px"> <span style="color:rgb(93,217,241)">GUN</span> <span style="color:rgb(243,48,110);">LEGISLATION</span> AND <span style="color:rgb(232,218,106);">ACTIVISM</span><!--<svg id="phasortitle" class="svgWithText" width="500" height="20" style="display: inline">--></svg></div><div class="subheader" style="margin-top: 0px; color: #888; font-size: 18px; width: 800px">A RESOURCE TO UNDERSTAND GUN LAWS AND HOW TO CHANGE THEM<span id="icons" style="margin-left: 10"></span></div>';
+'<div style="color: #ddd; font-size: 22px"> <span style="color:rgb(83, 224, 196)">GUN</span> <span style="color:rgb(83, 224, 196);">LEGISLATION</span> AND <span style="color:rgb(53, 142, 252);">ACTIVISM</span><!--<svg id="phasortitle" class="svgWithText" width="500" height="20" style="display: inline">--></svg></div><div class="subheader" style="margin-top: 0px; color: #888; font-size: 18px; width: 1000px">A RESOURCE TO UNDERSTAND GUN LAWS AND HOW TO CHANGE THEM<span id="icons" style="margin-left: 10"></span></div>';
 
 document.getElementById('titleinfo').innerHTML = titleContents;
 

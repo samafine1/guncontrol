@@ -40,7 +40,7 @@ a:active {
 
 .title {
 	width: 100%;
-	background-color: rgb(39, 40, 34);
+	background-color: rgb(48, 46, 46);
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
@@ -50,7 +50,7 @@ a:active {
 }
 
 .title .bigheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 60%;
 	font-size: 40;
 	color: #fff;
@@ -61,7 +61,7 @@ a:active {
 }
 
 .title .subheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 60%;
 	font-size: 18;
 	color: #555;
@@ -71,7 +71,7 @@ a:active {
 }
 
 h2 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 60%;
 	font-size: 15;
 	/*margin-left: 50;*/
@@ -80,28 +80,28 @@ h2 {
 	line-height: 90%;
 }
 h3 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 100%;
 	font-size: 14;
 	margin-left: 0;
 	margin-top: 30px;
-	font-weight: 550;
+	font-weight: 600;
 	line-height: 90%;
 }
 h4 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 100%;
 	font-size: 13;
 	margin-left: 50;
 	margin-top: 15px;
-	font-weight: 550;
+	font-weight: 600;
 	line-height: 90%;
 }
 h5 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-style: italic;
 	width: 100%;
-	font-size: 10;
+	font-size: 11;
 	margin-left: 0;
 	margin-top: 0px;
 	font-weight: 500;
@@ -133,7 +133,7 @@ h5 {
 
 .quote {
 	font-size: 13px;
-	font-family: 'Lato', serif;
+	font-family: 'Oxygen', serif;
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
@@ -146,12 +146,12 @@ h5 {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 13px;
-	font-family: 'Lato', serif;
+	font-family: 'Oxygen', serif;
 }
 
 .diversion {
 	font-size: 13px;
-	font-family: 'Lato', serif;
+	font-family: 'Oxygen', serif;
 	width: 100%;
 	padding: 10px;
 	margin-left: auto;
@@ -163,7 +163,7 @@ h5 {
 }
 
 .bigheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 60%;
 	font-size: 40;
 	color: #333333;
@@ -173,7 +173,7 @@ h5 {
 }
 
 .mediumheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 60%;
 	font-size: 30;
 	color: #333333;
@@ -183,7 +183,7 @@ h5 {
 }
 
 .littleheader {
-	font-family: 'Lato', sans-serif;
+	font-family: '', sans-serif;
 	width: 60%;
 	font-size: 24;
 	color: rgb(39, 40, 34);
@@ -194,7 +194,7 @@ h5 {
 }
 
 .subheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 100%;
 	font-size: 24;
 	color: #777;
@@ -203,7 +203,7 @@ h5 {
 }
 
 .partheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 88%;
 	font-size: 23;
 	color: rgb(39, 40, 34);
@@ -213,7 +213,7 @@ h5 {
 }
 
 .partsubheader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	width: 88%;
 	font-size: 16;
 	color: #777;
@@ -222,7 +222,7 @@ h5 {
 }
 
 .figureExplanation {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 11;
 	padding-left: 10px;
 	vertical-align: top;
@@ -239,7 +239,7 @@ h5 {
 {
 	text-align:center;
 	font-size:12px;
-	font-family: 'Lato', serif;
+	font-family: 'Oxygen', serif;
 }
 
 .math {
@@ -259,7 +259,7 @@ h5 {
 }
 
 .footnote {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 10;
 	width: 60%;
 	margin-left: auto;
@@ -268,7 +268,7 @@ h5 {
 }
 
 .indentAside {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 13;
 	width: 60%;
 	margin-left: 50px;
@@ -285,7 +285,7 @@ h5 {
 }
 
 .dftSignalText {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 13;
 	padding-left: 15px;
 	vertical-align: top;
@@ -303,7 +303,7 @@ h5 {
 }
 
 .footerbutton {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 14;
 	color: #999;
 	cursor: pointer;
@@ -343,7 +343,7 @@ h5 {
 }
 
 .sectionButton {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 11;
 	color: #666;
 	float: left;
@@ -393,7 +393,7 @@ h5 {
 }
 
 .contentsHeader {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 14;
 	color: #888;
 	padding: 5px;
@@ -444,7 +444,7 @@ h5 {
 }
 
 label {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 13;
 }
 
@@ -458,7 +458,7 @@ stroke: #555;
 }
 
 .svgWithText {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 10px;
 
 	user-select: none;
