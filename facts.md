@@ -2,6 +2,15 @@
 
 • A little over a third of Americans own guns
 
+• Gun violence took 15,613 lives in 2017
+
+• https://www.sciencedirect.com/science/article/pii/S0091743515001188 :
+
+    • Self defense gun use occurs in less than 1% of contact crimes
+    
+    • Likelihood of victim injury without use of a firearm in self defense: 10.9%
+    
+    • Likelihood of victim injury with use of firearm in self defense: 11.0%
 
 Current legislation
 
