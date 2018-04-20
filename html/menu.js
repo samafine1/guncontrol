@@ -22,7 +22,7 @@ var menuoptions =
   // ["Euler’s Formula", "euler.html"],
   ["Vote", "part4.html", "---"],
   ["California Registration", "https://registertovote.ca.gov/"],
-  ["Registration- Other States", "dotproduct2.html"],
+  ["Registration- Other States", "https://vote.gov/"],
   // ["Correlation With Sine", "dotproduct3.html"],
   // ["Correlation With Sine and Cosine", "dotproduct4.html"],
   // ["Discrete Fourier Transform Example", "dft_walkthrough.html"],
