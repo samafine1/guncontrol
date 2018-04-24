@@ -1,0 +1,186 @@
+
+<DOCTYPE! html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gun Control </title>
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link rel= "stylesheet" href="Gstyle.css">
+
+       
+    </head>
+
+
+ <body>
+ 	<script>
+  // This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    // The response object is returned with a status field that lets the
+    // app know the current login status of the person.
+    // Full docs on the response object can be found in the documentation
+    // for FB.getLoginStatus().
+    if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      testAPI();
+    } else {
+      // The person is not logged into your app or we are unable to tell.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    }
+  }
+
+  // This function is called when someone finishes with the Login
+  // Button.  See the onlogin handler attached to it in the sample
+  // code below.
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '2129804677239639',
+      cookie     : true,  // enable cookies to allow the server to access 
+                          // the session
+      xfbml      : true,  // parse social plugins on this page
+      version    : 'v2.8' // use graph api version 2.8
+    });
+
+    // Now that we've initialized the JavaScript SDK, we call 
+    // FB.getLoginStatus().  This function gets the state of the
+    // person visiting this page and can return one of three states to
+    // the callback you provide.  They can be:
+    //
+    // 1. Logged into your app ('connected')
+    // 2. Logged into Facebook, but not your app ('not_authorized')
+    // 3. Not logged into Facebook and can't tell if they are logged into
+    //    your app or not.
+    //
+    // These three cases are handled in the callback function.
+
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  // Here we run a very simple test of the Graph API after login is
+  // successful.  See statusChangeCallback() for when this call is made.
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+</script>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<div id="status">
+</div>
+
+
+  	<div class="title">
+  		<table width="900">
+  			<tr>
+	  			<td width="90%">
+				  	<div class="bigheader" id="titleinfo">
+				 	</div>
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td width="70%">
+			 		<br/>
+			 		<div id="menu" class="menu" style="margin-left: 45; ">
+			 			<table> <tr id="menurow"> </tr> </table>
+			 		</div>
+			 	</td>
+		 	</tr>
+	 	</table>
+  	</div>
+
+		<div class="littleheader"> EVENTS 
+			<div class="subheader" style="font-size: 14px"> WHAT CAN BE FOUND HERE?</div>
+		</div>
+
+	<div class="fb-login-button" data-width="50" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false" ></div>
+
+		<table class="figureTable">
+			<tr>
+				<td style="vertical-align: top;">
+					<div class="quote">
+  						“They say no laws could have prevented the hundreds of senseless tragedies that have occurred. We call BS.”<br/><br/>
+  						<b> - Emma Gonzalez, <i>Parkland shooting survivor</i> </b>
+  					</div><br/>
+				 <div class="text" style="margin-left: 0">
+
+				 	<p>
+				 	This website is an all ecompassing resource for anyone who wants to learn about gun legislation in the United States and how to use activism to potentially change the laws. We are based in California so our state legislation is focused on California. Explore the links above to learn about federal legislation, Califronia legislation, locations for direct action inclduing NRA meetings, the contact information for your senators, and a direct link to register to vote in California. 
+				 	</p>
+
+					<br/><br/>
+
+					<p>
+					</p>
+
+				  	<p>
+					</p>
+				<td class="figureExplanation" style="color: #666">
+					<b>PLACES TO DONATE:</b>
+					<br/><br/>
+						<a href="https://everytown.org/" target="_blank">Everytown for Gun Safety</a><br/><br/>
+						<a href="http://www.bradycampaign.org/" target="_blank">The Brady Campaign</a><br/><br/>
+						<a href="https://momsdemandaction.org/" target="_blank">Moms Demand Action for Gun Sense in America</a><br/><br/>
+						<a href="https://giffords.org/" target="_blank">Giffords</a><br/><br/>
+						<a href="https://www.csgv.org/" target="_blank">The Coalition to Stop Gun Violence</a><br/><br/>
+
+					
+				</td>
+			</tr>
+		</table>
+		<hr>
+
+		<div class="littleheader"> REFERENCES 
+			<div class="subheader" style="font-size: 14px"> PRAISE AND STEALING</div>
+		</div>
+
+
+		<table class="figureTable">
+			<tr>
+				<td style="vertical-align: top;">
+					 <div class="text" style="margin-left: 0">
+						This piece was inspired by Mike Bostock’s<a href="http://vimeo.com/112319901"> Visualizing Algorithms</a>, David Mimno’s <a href="http://youtu.be/-0Pe30Zz3a0">Understanding Machine Learning with D3</a>, Bret Victor’s <a href="http://vimeo.com/67076984">Media for Thinking the Unthinkable</a>, and Setosa’s <a href="http://setosa.io/ev/">Explained Visually</a>.<sup>7</sup>
+					</div><br/><br/>
+					<div class="text" style="margin-left: 0">
+						All of the visualizations were created using the <a href="http://d3js.org/">D3.js</a> library. D3 is an exceptional piece of software, and presents a brilliantly low barrier to entry via an <a href="http://bl.ocks.org/mbostock">enormous amount</a> of freely available <a href="http://vimeo.com/69448223"> online examples</a>. If <a href="http://jackschaedler.github.io/goya/">my last project</a> was an exploration into <a href="https://github.com/clojure/clojurescript">ClojureScript</a>, this one is an exploration into D3.<sup>8</sup>
+					</div>
+				</td>
+			</tr>
+		</table>
+		</p>
+		<br/><br/>
+	<div class="title" id=""><div class="footerbutton" style=""><a <span style="font-size: 12px"></span></a></div></div>
+	<script type="text/javascript" src="d3.min.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+</body>
+</html>

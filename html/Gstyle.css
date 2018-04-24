@@ -108,6 +108,10 @@ h5 {
 	font-weight: 500;
 	line-height: 90%;
 }
+.fb-login-button {
+	padding-left: 100px;
+	margin-left: 100px;
+}
 
 .text {
 	font-size: 15px;
