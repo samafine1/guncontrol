@@ -116,6 +116,7 @@ h5 {
 	margin-left: 0px;
 /*		margin-right: auto;*/
 	color: #222222;
+	line-height: 2;
 }
 
 .textfontonly {
@@ -192,6 +193,7 @@ h5 {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	font-weight: 400;
+
 }
 
 .subheader {
@@ -243,29 +245,18 @@ h5 {
 	font-family: 'Oxygen', serif;
 }
 
-.math {
-	text-align: center;
-	vertical-align: top;
 
+.footnote {
 	font-size: 15px;
 	font-family: 'Vollkorn', serif;
 	width: 740px;
-	margin-left: 50px;
+	margin-left: 0px;
 /*		margin-right: auto;*/
 	color: #222222;
-}
-
-.bigicon {
-	font-size: 15;
-}
-
-.footnote {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 10;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	color: #666666;
+	line-height: 2;
+	text-indent: 25px;
+    width:100%;
+   
 }
 
 .indentAside {
@@ -274,22 +265,6 @@ h5 {
 	width: 60%;
 	margin-left: 50px;
 	color: #333;
-}
-
-.fourierEquation {
-	font-size:120%;
-	color:#444444;
-	margin-left:auto;
-	margin-right:0;
-	vertical-align: top;
-	overflow:hidden;
-}
-
-.dftSignalText {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 13;
-	padding-left: 15px;
-	vertical-align: top;
 }
 
 .footer {
@@ -301,46 +276,6 @@ h5 {
 	padding-top: 20px;
 	padding-bottom: 20px;
   	box-shadow: 0px 0px 3px 3px #ccc;
-}
-
-.footerbutton {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 14;
-	color: #999;
-	cursor: pointer;
-	width: 60px;
-	margin-left: 400px;
-	font-weight: bold;
-}
-
-.footerbutton:hover {
-	color: #fff;
-	/*background-color: #333;*/
-}
-
-.footerbutton a:link {
-	color: #999;
-	text-decoration: none;
-}
-
-.footerbutton a:visited {
-    color: #999;
-    text-decoration: none;
-}
-
-.footerbutton a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footerbutton a:active {
-    color: #666;
-    text-decoration: none;
-}
-
-.footerbutton:hover a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .sectionButton {
@@ -401,45 +336,6 @@ h5 {
 	clear: both;
 }
 
-.animation {
-  /*cursor: pointer;*/
-}
-
-.animation button {
-  margin-left: 5px;
-  margin-top: 5px;
-  cursor: pointer;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: solid 1px #ccc;
-  color: #333;
-  background: #fff;
-  bottom: 20px;
-  left: 20px;
-}
-
-.animation button:hover {
-  border-color: #777;
-  color: #000;
-  /*box-shadow: 0 1px 1px rgba(0,0,0,.2);*/
-}
-
-.animation button.disabled {
-  color: #ccc;
-  border: solid 1px #ccc;
-  /*box-shadow: 0 0px 0px rgba(0,0,0,.2);*/
-}
-
-.animation button.disabled:hover {
-  color: #ccc;
-  border: solid 1px #ccc;
-  /*box-shadow: 0 0px 0px rgba(0,0,0,.2);*/
-}
-
-.animation button:focus {
-  outline: none;
-}
-
 .menu {
 	width: 900px;
 }
@@ -451,34 +347,3 @@ label {
 
 sup { vertical-align: top; position: relative; top: -0.1em; }
 
-
-.MathJax_SVG SVG > g,
-.MathJax_SVG_Display SVG > g {
-fill: #555;
-stroke: #555;
-}
-
-.svgWithText {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 10px;
-
-	user-select: none;
-	-moz-user-select: none;
-  	-webkit-user-select: none;
-}
-
-.axis {}
-
-.axis path,
-.axis line {
-	 	fill: none;
-	stroke: #333333;
-	shape-rendering: crispEdges;
-}
-.gridAxis path,
-.gridAxis line {
-	 	fill: none;
-	stroke: #dddddd;
-	stroke-width: 1;
-	shape-rendering: crispEdges;
-}
