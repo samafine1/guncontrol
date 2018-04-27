@@ -15,7 +15,7 @@ var menuoptions =
   // ["Wagon Wheel Effect", "sampling4.html"],
   // ["Sine Wave Aliasing", "sampling3.html"],
   ["Activism", "part3.html", "---"],
-  ["Direct Action", "coordinates.html"],
+  ["Direct Action Events", "events.html"],
   ["Contacts", "dft_introduction.html"],
   // ["Notation", "notation.html"],
   // ["Complex Numbers", "complex.html"],
