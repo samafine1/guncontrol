@@ -16,7 +16,7 @@ var menuoptions =
   // ["Sine Wave Aliasing", "sampling3.html"],
   ["Activism", "part3.html", "---"],
   ["Direct Action Events", "events.html"],
-  ["Contacts", "dft_introduction.html"],
+  ["Contacts", "https://www.senate.gov/general/contact_information/senators_cfm.cfm"],
   // ["Notation", "notation.html"],
   // ["Complex Numbers", "complex.html"],
   // ["Euler’s Formula", "euler.html"],

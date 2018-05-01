@@ -133,6 +133,13 @@ h5 {
 	text-align: center;
 }
 
+.source {
+	font-size: 15px;
+	font-family: 'Vollkorn', serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
 .quote {
 	font-size: 13px;
 	font-family: 'Oxygen', serif;
