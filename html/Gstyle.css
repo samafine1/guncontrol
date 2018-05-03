@@ -126,6 +126,10 @@ h5 {
 	vertical-align: top;
 }
 
+.fb-page {
+	display: inline-block;
+}
+
 .controls {
 	width: 50%;
 	margin-left: auto;
@@ -149,6 +153,12 @@ h5 {
 	color: #333333;
 	text-align: center;
 }
+
+
+.events {
+	width: 740px;
+}
+
 
 .textbutton {
 	width: 100px;
