@@ -7,7 +7,7 @@ var menuoptions =
   // ["Sampling & Aliasing", "aliasing.html"],
   // ["Sound Waves", "sound.html"],
   // ["Timbre", "sound2.html"],
-  ["Legislation", "part2.html", "---"],
+  ["Legislation", "---", "---"],
   ["Federal", "federal.html"],
   ["California", "california.html"],
   // ["The Sampling Theorem", "sampling.html"],
