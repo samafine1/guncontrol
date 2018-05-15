@@ -130,6 +130,25 @@ h5 {
 	display: inline-block;
 }
 
+.data img{
+	width: 400px;
+	height:350px;
+	border-style: solid;
+	border-width: 1px;
+	float:left;
+}
+
+.data {
+	margin-left: 70px;
+	margin-bottom: 70px;
+	float:left;
+}
+
+.images {
+	float:left;
+	overflow:hidden;
+}
+
 .controls {
 	width: 50%;
 	margin-left: auto;
