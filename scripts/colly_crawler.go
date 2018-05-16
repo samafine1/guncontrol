@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/gocolly/colly"
-	//"fmt"
 	"strconv"
 	"time"
 	"strings"
@@ -35,17 +34,27 @@ func detURLarr(url string) []string {
 }
 
 type evt struct {
-	name, date, location, all_data string
+	name, date, location, locLink, all_data string
 }
-func scrape(url string){
+
+func scrape(url string) {
 	c := colly.NewCollector()
-	info := []string{}
-	c.OnHTML("div[class]", func(e *colly.HTMLElement) {
+	c.OnHTML("div[class]", func(e *colly.HTMLElement){
 		cls := e.Attr("class")
 		if cls == "col-md-24 details" {
-			info = append(info, e.Text)
-			fmt.Println(e.Text)
+			item := evt{}
+			item.name = e.ChildText("div > h2")
+			item.all_data = e.ChildText("div > p")
+			adARR := strings.Split(item.all_data, "|")
+			if len(adARR) == 3{
+				item.date = adARR[0]
+				item.location = adARR[1]
+				return
+			} else {
+				return
+			}
 		}
 	})
+	fmt.Println(item.name)
 	c.Visit(url)
 }
