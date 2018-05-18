@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e9ceb4-2ff6-4991-984f-997fb005ffb2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/html/events.html" afterPath="$PROJECT_DIR$/html/events.html" />
       <change beforePath="$PROJECT_DIR$/scripts/colly_crawler.go" afterPath="$PROJECT_DIR$/scripts/colly_crawler.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="colly_crawler.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="colly_crawler.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/colly_crawler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,6 +63,7 @@
     <replaceStrings>
       <replace>b_tokenizer</replace>
       <replace>evtUrls</replace>
+      <replace>item[0]</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -66,6 +81,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/again.go" />
         <option value="$PROJECT_DIR$/scripts/crawler.go" />
         <option value="$PROJECT_DIR$/scripts/colly_crawler.go" />
+        <option value="$PROJECT_DIR$/html/events.html" />
       </list>
     </option>
   </component>
@@ -169,6 +185,11 @@
       <item index="3" class="java.lang.String" itemvalue="Go Build.go build nra_crawler.go" />
       <item index="4" class="java.lang.String" itemvalue="Go Build.go build scratch.go" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build colly_crawler.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -221,7 +242,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/curl_crawler.go" />
     <entry file="file://$PROJECT_DIR$/scripts/crawler.go" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/curl_crawler.go" />
     <entry file="file://$PROJECT_DIR$/scripts/crawler.go" />
@@ -273,9 +293,21 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/curl_crawler.go" />
     <entry file="file://$PROJECT_DIR$/scripts/colly_crawler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="432">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
