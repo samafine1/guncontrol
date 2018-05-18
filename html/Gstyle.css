@@ -10,7 +10,7 @@ body {
 	}
 
 p {
-    text-indent: 25px;
+    /*text-indent: 100px;*/
     width:100%;
     line-height: 2;
 }
@@ -364,13 +364,13 @@ h5 {
     text-decoration: none;
 }
 
-.contentsHeader {
+/*.contentsHeader {
 	font-family: 'Oxygen', sans-serif;
 	font-size: 14;
 	color: #888;
 	padding: 5px;
 	clear: both;
-}
+}*/
 
 .menu {
 	width: 900px;
