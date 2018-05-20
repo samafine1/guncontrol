@@ -6,16 +6,21 @@ import (
 	"time"
 	"strings"
 	"fmt"
+	"io/ioutil"
+	"path/filepath"
 )
 
 func main() {
 	URL := "http://www.nraam.org/events"
 	queue := detURLarr(URL)
-	
+	events := ""
 	for _, url := range queue{
 		fmt.Println(url)
-		scrape(url)
+		event := scrape(url)
+		events = events + event
 	}
+	fmt.Println(events)
+	defer writeEvt(events)
 }
 // vvv determines the urls that are relevant to this project
 func detURLarr(url string) []string {
@@ -37,12 +42,16 @@ type evt struct {
 	name, date, location, locLink, all_data string
 }
 
-func scrape(url string) {
+func (e * evt)handleEvt()string{
+	return "<p>Event Name: "+e.name+"</p> <p>Date: "+e.date+"</p> <p>location: "+e.location+"</p>"
+}
+
+func scrape(url string) string{
 	c := colly.NewCollector()
+	item := evt{}
 	c.OnHTML("div[class]", func(e *colly.HTMLElement){
 		cls := e.Attr("class")
 		if cls == "col-md-24 details" {
-			item := evt{}
 			item.name = e.ChildText("div > h2")
 			item.all_data = e.ChildText("div > p")
 			adARR := strings.Split(item.all_data, "|")
@@ -55,6 +64,18 @@ func scrape(url string) {
 			}
 		}
 	})
-	fmt.Println(item.name)
+	//fmt.Println(item.name)
 	c.Visit(url)
+	return item.handleEvt()
+}
+
+func writeEvt(s string) error{
+	path, _ := filepath.Abs("guncontrol/html")
+	file := "events.html"
+	f, _ := ioutil.ReadFile(filepath.Join(path, file))
+	 file_content := string(f)
+	 f_arr := strings.Split(file_content, "<!--put shit here -->")
+	 new_cnt := f_arr[0]+"<!--put shit here -->"+s+"<!--put shit here -->"+f_arr[len(f_arr)-1]
+	 fmt.Println("DONE")
+	 return ioutil.WriteFile(filepath.Join(path, file), []byte(new_cnt), 0755)
 }
